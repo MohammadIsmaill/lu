@@ -108,9 +108,12 @@ export default function ViewCoursePage({ params }) {
 
         <div style={{ padding: 50 }}>
           <h1 className="text-3xl  font-semibold  mt-5">Reviews</h1>
-          {comments.map((comment) => {
+          {comments.map((comment, index) => {
             return (
-              <div className="bg-white shadow-lg p-4 my-10 flex flex-col justify-start items-start rounded-lg">
+              <div
+                key={index}
+                className="bg-white shadow-lg p-4 my-10 flex flex-col justify-start items-start rounded-lg"
+              >
                 <div className="flex gap-2">
                   <FontAwesomeIcon icon={faCircleUser} className="text-2xl" />
                   <h3 className="font-bold">User</h3>

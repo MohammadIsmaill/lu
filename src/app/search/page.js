@@ -112,9 +112,12 @@ export default function Home() {
             <h1>Loading...</h1>
           </div>
         ) : (
-          courses.map((item) => {
+          courses.map((item, index) => {
             return (
-              <div className="card  bg-base-100 shadow-xl mx-2 my-3 md:col-span-4 sm:col-span-6">
+              <div
+                key={index}
+                className="card  bg-base-100 shadow-xl mx-2 my-3 md:col-span-4 sm:col-span-6"
+              >
                 <div className="card-body">
                   <h2
                     className="card-title hover:underline hover:cursor-pointer"

@@ -61,7 +61,7 @@ export default function Login() {
         </button>
 
         <h1>
-          Don't have an account? <a href="/register">Register</a>
+          Don t have an account? <a href="/register">Register</a>
         </h1>
       </div>
     </>

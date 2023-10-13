@@ -35,9 +35,9 @@ export default function Home() {
               Our platform is your one-stop destination for comprehensive and
               unbiased course reviews that cater exclusively to the educational
               programs and courses offered by the Lebanese University. Whether
-              you're a current student looking to make informed decisions about
+              youre a current student looking to make informed decisions about
               your academic path or a prospective student seeking insights into
-              the university's offerings, we've got you covered.
+              the universitys offerings, weve got you covered.
             </em>
           </p>
           <button
@@ -125,8 +125,8 @@ export default function Home() {
                 Contribute Your Experience
               </h3>
               <p>
-                If you're a Lebanese University student or alum, help your
-                fellow students by sharing your course experiences.
+                If youre a Lebanese University student or alum, help your fellow
+                students by sharing your course experiences.
               </p>
             </div>
             <div className="feature-box bg-white rounded-lg p-6 shadow-md">
