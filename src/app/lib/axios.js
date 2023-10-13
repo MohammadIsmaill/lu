@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const axiosConfig = {
-  baseURL: "http://localhost:5000/api/v1",
+  baseURL: " https://lu-backend-10f6a44280bf.herokuapp.com/api/v1",
   timeout: 15000,
 };
 
